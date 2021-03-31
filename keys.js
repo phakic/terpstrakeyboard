@@ -453,6 +453,25 @@ function goKeyboard() {
       188 : new Point(2, 1), // ,
       190 : new Point(3, 1), // .
       191 : new Point(4, 1), // /
+
+      96 : new Point(-5, 2), // num0
+      97 : new Point(-4, 2), // num1
+      98 : new Point(-3, 2), // num2
+      99 : new Point(-2, 2), // num3
+      100 : new Point(-1, 2), // num4
+      101 : new Point(0, 2), // num5
+      102 : new Point(1, 2), // num6
+      103 : new Point(2, 2), // num7
+
+      104 : new Point(-5, 3), // num8
+      105 : new Point(-4, 3), // num9
+      111 : new Point(-3, 3), // numm/
+      106 : new Point(-2, 3), // num*
+      109 : new Point(-1, 3), // num-
+      107 : new Point(0, 3), // num+
+      110 : new Point(1, 3), // num.
+      220 : new Point(2, 3), // \
+
     };
     window.addEventListener("keydown", onKeyDown, false);
     window.addEventListener("keyup", onKeyUp, false);
